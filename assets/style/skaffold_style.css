@@ -99,3 +99,10 @@ body{
     color: rgb(117, 109, 109);
     font-size: 20px;
   }
+
+
+
+
+  .card{
+    background-repeat: no-repeat;
+  }
