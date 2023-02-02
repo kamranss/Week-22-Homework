@@ -553,7 +553,7 @@
             </ul>
         </div>
     </section>
-    <footer id="contact">
+    <section id="contact">
         <div class="contact_container">
             <div class="contact_heading"><h1>Contact</h1></div>
             <div class="contact_main_box">
@@ -580,19 +580,134 @@
                         </div>
                     </div>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 300px; height: 250px;" allowfullscreen=""></iframe>
                     </div>
                 </div>
                 <div class="form">
                     <div>
-                        <form action="send_message">
-                            <div><input type="text"></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                         <form action="send_message" method="post" class="form_fileds">
+                            <div>
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" id="name" required="">
+                            </div>
+                            <div>
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="name" required>
+                            </div>
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input type="text" name="name" id="text">
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="name" id="message" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Send Message</button>
+                            </div>
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="links">
+        <div class="links_main_container">
+            <div class="links_contact_info">
+                <div>
+                    <h2>Scaffold</h2>
+                </div>
+                <div>
+                    <p>A108 Adam Street</p>
+                    <p>NY 535022, USA</p>
+                </div>
+                <div>
+                    <p><b>Phone:</b> +1 5589 55488 55</p>
+                    <p><b>Email:</b> info@example.com</p>
+                </div>
+                <div class="links_social">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-skype"></i></a></li>
+                    </ul>                
+                </div>
+            </div>
+            <div class="links_useful_links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Home</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>About_us</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Services</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Terms of service</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                       <a href="#"><p>Privacy policy</p></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links_services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Web Design</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Web Development</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Product Managemnt</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="#"><p>Marketing</p></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-down"></i>
+                       <a href="#"><p>Graphic Design</p></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <div class="newsletter_heading">
+                    <h3>Our Newsletter</h3>
+                </div>
+                <div class="newsletter_content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, vitae!</p>
+                </div>
+                <div class="newsletter_form">
+                    <form action="subscribe">
+                        <input type="text" name="subscribe" id="text" class="text">
+                        <input type="submit" name="subscribe" id="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <div class="heading">
+                <p>© Copyright <b>Scaffold</b>. All Rights Reserved</p>
+            </div>
+            <div class="content">
+                <p>Designed by BootstrapMade</p>
             </div>
         </div>
     </footer>
