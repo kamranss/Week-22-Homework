@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/JosefinSlab-VariableFont_wght.ttf);
+  }
 
 body{
     height: 100vh;
     background-color: rgb(203, 199, 199);
+    font-family: myFirstFont;
 }
 
 .col-1{
@@ -52,14 +57,14 @@ body{
     margin-left: 120px;
     
 }
-.heading_container h1{
-    margin-left: 200px;
+.heading_container h1,p{
+    text-align: center;
 }
 
 .cards{
     height: 460px;
     background-color: white;
-    margin-left: 120px;
+    margin-left: 180px;
 }
 .cards_row_1 ul{
     display: flex;
@@ -72,19 +77,38 @@ body{
 li{
     height: 230px;
     color: white;
+    text-align: center; 
+    list-style: none;
+    text-align: left;
     
+}
+.icon{
+    text-align: center;
+}
+li h3{
+    margin-top: 40px;
+    margin-left: 20px;
 }
 li p{
     font-size: large;
+    font-size: small;
+    width: 90%;
+    text-align: left;
 }
-li a{
+li a span{
     color: white;
-    font-weight: 300;
+    font-weight: 800;
+
+}
+li h5,p,a{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
 }
 i{
     height: 230px;
     font-size: 100px;
-    width: 400px;
-    color: rgb(60, 55, 55);
-    
+    width: 362px;
+    color: rgb(60, 55, 55); 
+    margin-top: 70px  
 }
