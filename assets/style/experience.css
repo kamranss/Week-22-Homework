@@ -6,6 +6,7 @@
 
 body{
     height: 100vh;
+    background-color: rgb(203, 199, 199);
 }
 
 .col-1{
@@ -43,4 +44,47 @@ body{
 }
 .col-12{
     width: calc(100%*12/12);
+}
+
+.heading_container{
+    height: 100px;
+    /* background-color: grey; */
+    margin-left: 120px;
+    
+}
+.heading_container h1{
+    margin-left: 200px;
+}
+
+.cards{
+    height: 460px;
+    background-color: white;
+    margin-left: 120px;
+}
+.cards_row_1 ul{
+    display: flex;
+    width: fit-content;
+}
+.cards_row_2 ul{
+    display: flex;
+    width: fit-content;
+}
+li{
+    height: 230px;
+    color: white;
+    
+}
+li p{
+    font-size: large;
+}
+li a{
+    color: white;
+    font-weight: 300;
+}
+i{
+    height: 230px;
+    font-size: 100px;
+    width: 400px;
+    color: rgb(60, 55, 55);
+    
 }
