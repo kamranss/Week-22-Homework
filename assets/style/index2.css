@@ -52,10 +52,10 @@ body{
 }
 .middle_container{
     position: absolute;
-    width: 60%;
+    width: 55%;
     height: 95%;
     top: 30px;
-    left: 20%;
+    left: 23%;
     background-color: rgb(228, 233, 235);
     /* border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -65,7 +65,7 @@ body{
 .heading{
     height: 15%;
     left: 40px;
-    border: solid 2px grey;
+    /* border: solid 2px grey; */
 }
 .heading h1,p{
     display: flex;
@@ -73,7 +73,7 @@ body{
     padding-top: 10px;
 }
 .cards{
-height: 60%;
+height: 65%;
 /* display: flex;
 justify-content: stretch; */
 }
@@ -84,35 +84,64 @@ padding-top: 20px;
 }
 .card_info{
     position: relative;
-    height: 200px;
+    height: 210px;
     background-color:  white;
     font-size: small;
 }
 .card_info i{
     font-size: 40px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
-    top: 20px;
-    left: 40%;
     color: rgb(192, 167, 6);
+    margin-top: 20px;
 }
 .card_info h3{
-    position: absolute;
-    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     font-weight: 200;
-    left: 30%;
 }
 .card_info p{
-    position: absolute;
-    top: 100px;
-    left: 3%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 200;
+    text-align: center;
 }
 
 #footer{
-    height: 15%;
+    height: 10%;
+    left: 40px;
+    margin-top: 7%;
+}
+
+.footer_container{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer_container p{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-top: 30px;
+    background-color: rgb(192, 167, 6);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
 }
 
 
